@@ -34,14 +34,14 @@
 
   <!-- Wave Image -->
   <img
-    src="assets/hero-bg.png" class="absolute top-1/2 left-0 -translate-y-1/2 w-full mt-16" alt=""/>
+    src="assets/hero-bg.png" class="absolute top-1/2 left-0 -translate-y-1/2 w-full mt-16 animate-pulse" alt=""/>
 
   <img
-    src="assets/hero-circle.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mb-auto w-64 h-64" alt=""/>
+    src="assets/hero-circle.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 mb-auto w-70 h-70" alt=""/>
 
 <img
-    src="assets/microphone.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24" alt=""/>
-<div class="absolute -top-1 right-4 flex h-6 w-12 items-center justify-center rounded-full bg-[#39ff14] text-[10px] font-black mt-64 mr-132 text-black shadow-md border border-white/20">New</div>
+    src="assets/microphone.png" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 animate-pulse" alt=""/>
+<div class="absolute -top-1 right-4 flex h-6 w-12 items-center justify-center rounded-full bg-[#39ff14] text-[10px] font-black mt-64 mr-132 text-black shadow-md border border-white/20 animate-bounce">New</div>
 
 </div>
 
@@ -90,34 +90,56 @@
       </section>
 
   <!-- Why Choose -->
-    <section class="max-w-6xl max-auto mt-32 px-6">
-     <h2 class="text-3xl font-bold text-center mb-12">
-        Why Choose TechWave
-     </h2>
-     <div class="grid md:grid-col-2 gap-6">
-      <div class="bg-purple-900/40 p-6 rounded-[2rem] lg:row-span-2">
-        <h3 class="font-bold text-xl"> <img src="assets/headphone.png" alt="">Premium Audio Quality</h3>
-        <p class="text-md text-gray-400 mt-6">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-      </div>
-      <div class="bg-purple-900/40 p-6 rounded-2xl c-span-2">
-        <h3 class="font-bold text-xl"> <img src="assets/device.png" alt="">Mobile Friendly</h3>
-        <p class="text-md text-gray-400 mt--6">Listen on the go with seamless mobile experience and offline downloads.</p>
-      </div>
-      <div class="bg-purple-900/40 p-6 rounded-2xl">
-        <h3 class="font-bold text-xl"> <img src="assets/globe-05.png" alt="">Global Community</h3>
-        <p class="text-md text-gray-400 mt-6">Connect with tech enthusiasts from over 120 countries worldwide.</p>
-      </div>
-      <div class="bg-purple-900/40 p-6 rounded-2xl md:col-span-2">
-        <h3 class="font-bold text-xl"> <img src="assets/zap-fast.png" alt="">Exclusive Interviews</h3>
-        <p class="text-md text-gray-400 mt-6">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
-      </div>
-      <div class="bg-purple-900/40 p-6 rounded-2xl ">
-        <h3 class="font-bold text-xl"> <img src="assets/resource.png" alt="">Rich Resources</h3>
-        <p class="text-md text-gray-400 mt-6">Access show notes, transcripts, and additional learning materials for every episode.</p>
-      </div>
-     </div>
+    <section class="py-24 px-6">
+  <h2 class="text-center text-4xl font-bold mb-16">
+    Why Choose TechWave
+  </h2>
 
-    </section>
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+
+  <div class="md:row-span-2 p-8 rounded-2xl 
+            bg-gradient-to-br from-[#291047] to-[#260954]">
+    <img src="assets/headphone.png" alt="">
+  <h3 class="text-xl font-semibold mb-2 flex items-center gap-2">
+     Premium Audio Quality
+  </h3>
+  <p class="text-gray-300">
+    Experience crystal-clear sound with professional-grade recording and expert
+    audio engineering.
+  </p>
+</div>
+  <div class="p-8 rounded-2xl 
+            bg-gradient-to-br from-[#2a0d4e] to-[#14042d]">
+
+    <img src="assets/device.png" alt="">
+  <h3 class="text-xl font-semibold mb-2 flex items-center gap-2">Mobile Friendly</h3>
+  <p class="text-gray-300">
+    Listen on the go with seamless mobile experience and offline downloads.
+  </p>
+</div>
+ <div class="p-8 rounded-2xl bg-gradient-to-br from-[#2a0d4e] to-[#14042d]">
+    <img src="assets/globe-05.png" alt="">
+  <h3 class="text-xl font-semibold mb-2 flex items-center gap-2">Global Community</h3>
+  <p class="text-gray-300">
+    Connect with tech enthusiasts from over 120 countries worldwide.
+  </p>
+</div>
+ <div class="md:col-span-2 p-8 rounded-2xl bg-gradient-to-br from-[#2a0d4e] to-[#14042d]">
+    <img src="assets/zap-fast.png" alt="">
+  <h3 class="text-xl font-semibold mb-2 flex items-center gap-2"> Exclusive Interviews</h3>
+  <p class="text-gray-300 max-w-3xl">
+    Get unprecedented access to industry titans, startup founders, and tech
+    visionaries. Deep conversations you won’t find anywhere else.
+  </p>
+</div>
+  <div class="p-8 rounded-2xl bg-gradient-to-br from-[#2a0d4e] to-[#14042d]">
+    <img src="assets/resource.png" alt="">
+  <h3 class="text-xl font-semibold mb-2 flex items-center gap-2">Rich Resources</h3>
+  <p class="text-gray-300"> Access show notes, transcripts, and additional learning materials.</p>
+</div>
+
+  </div>
+    </section>  
 
     <!-- Episodes -->
   <section class="max-w-6xl mx-auto mt-32 px-6">
@@ -181,10 +203,10 @@
       
     <!-- social icons -->
     <div class="flex justify-center gap-6 mt-6">
-      <img src="assets/spotify.png" class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
-      <img src="assets/apple-podcast.png" class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
-      <img src="assets/youtube.png" class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
-      <img src="assets/twitter.png" class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
+      <img src="assets/spotify.png"alt="" class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
+      <img src="assets/apple-podcast.png" alt=""  class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
+      <img src="assets/youtube.png" alt=""  class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
+      <img src="assets/twitter.png" alt=""  class="w-6 h-6 opacity-80 hover:opacity-100 cursor-pointer">
     </div>
 
     <!-- copyright -->
